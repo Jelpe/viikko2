@@ -1,2 +1,2 @@
-# viikko2
-Jere Pietiläinen Viikon 2 perustehtävät
+# viikkotehtävät
+Jere Pietiläinen Viikon 2/3 perustehtävät
