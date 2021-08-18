@@ -25,3 +25,8 @@ section
 {
   background-color: lightblue;
 }
+
+p, h1, button, select
+{
+  margin-left: 20px;
+}
