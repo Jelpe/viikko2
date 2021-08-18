@@ -2,12 +2,15 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="tyyli.css">
     <script type="text/javascript" src="viikko2.js">
 
     </script>
   </head>
   <body>
-    <h1>Tehtävä 1</h1>
+    <section id = "yksi">
+
+      <h1>Tehtävä 1</h1>
     <p>Anna kolme lukua niin ohjelma järjestää ne!</p>
     <form class="" action="index.html" method="post">
       <p>Numero 1: <input type="text" id="eka" value=""></p>
@@ -15,6 +18,9 @@
       <p>Numero 3: <input type="text" id="kolmas" value=""></p>
       <button type="button" name="button" onclick="jarjesta()">Järjestä</button>
     </form>
+    </section>
+
+    <section id = "kaksi">
 
     <h1>Tehtävä 2</h1>
     <form class="" action="index.html" method="post">
@@ -26,11 +32,17 @@
       <p>Luku 5: <input type="text" id="luku5" value=""></p>
       <button type="button" name="button" onclick="etsiSuurin()">Etsi suurin</button>
     </form>
+    </section>
+
+    <section id = "kolme">
 
     <h1>Tehtävä 3</h1>
     <p>Onko luku pariton vai parillinen?</p>
     <p>Luku: <input type="text" id="luku" value=""></p>
     <button type="button" name="button" onclick="onkoLuku()">Tarkista</button>
+    </section>
+
+    <section id = "nelja">
 
     <h1>Tehtävä 4</h1>
     <p>Mitä kulkuneuvoa saat ajaa?</p>
@@ -38,6 +50,9 @@
         <p>Ikäsi: <input type="text" id="text" value=""></p>
         <button type="button" name="button" onclick="onkoIkää()">Tulos</button>
       </form>
+      </section>
+
+      <section id = "viisi">
 
     <h1>Tehtävä 5</h1>
     <p>Valitse kieli jolle "Hei Maailma!" käännetään!</p>
@@ -47,4 +62,5 @@
       <option value="espanja">Espanja</option>
     </select>
     <button type="button" id="button" onclick="kaannaTeksti()">Käännä</button>
+    </section>
 </html>

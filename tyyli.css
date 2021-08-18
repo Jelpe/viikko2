@@ -1,0 +1,27 @@
+section
+{
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+  float: left;
+}
+#yksi
+{
+  background-color: red;
+}
+#kaksi
+{
+  background-color: green;
+}
+#kolme
+{
+  background-color: orange;
+}
+#nelja
+{
+  background-color: yellow;
+}
+#viisi
+{
+  background-color: lightblue;
+}
