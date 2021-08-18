@@ -1,6 +1,6 @@
 function jarjesta()
 {
-  var luku1, luku2, luku3;
+  var num1, num2, num3;
   num1 = parseInt(document.getElementById('eka').value);
   num2 = parseInt(document.getElementById('toka').value);
   num3 = parseInt(document.getElementById('kolmas').value);
