@@ -96,7 +96,7 @@ function kaannaTeksti() {
     document.getElementById('t5').innerHTML = "Hello World!";
   }
   else if (kieli == 'ruotsi') {
-    document.getElementById('t5').innerHTML = "Hallå Världen!";
+    document.getElementById('t5').innerHTML = "Hej Världen!";
   }
   else {
     document.getElementById('t5').innerHTML = "Hola Mundo!";
