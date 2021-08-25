@@ -60,46 +60,45 @@ function etsiSuurin() {
   else {
     suurin = eka;
   }
-  document.write("antamasi luvut: " + eka + " " + toka + " " + kolmas + " " + neljäs + " " + viides + " ");
-  document.write("Suurin luku on: " + suurin);
+  document.getElementById('t2').innerHTML = "Suurin luku on: " + suurin;
 }
 
 function onkoLuku() {
   var luku
   luku = parseInt(document.getElementById('luku').value);
   if (luku % 2) {
-    alert("Annettu luku on pariton");
+    document.getElementById('t3').innerHTML = "Luku on pariton";
   }
   else {
-    alert("Annettu luku on parillinen");
+    document.getElementById('t3').innerHTML = "Luku on parillinen";
   }
 }
 
 function onkoIkää() {
   var ikä = parseInt(document.getElementById('text').value);
   if (ikä < 16) {
-    alert("Saat ajaa polkupyörällä!");
+    document.getElementById('t4').innerHTML = "Saat ajaa polkupyörällä!";
   }
   else if (ikä < 18) {
-    alert("Saat ajaa mopolla!");
+    document.getElementById('t4').innerHTML = "Saat ajaa mopolla!";
   }
   else if (ikä > 90) {
-    alert("Pystytkö varmasti vielä ajamaan?");
+    document.getElementById('t4').innerHTML = "Oletko varma, että pystyt vielä ajamaan?";
   }
   else {
-    alert("Saat ajaa autoa!");
+    document.getElementById('t4').innerHTML = "Saat ajaa autoa!";
   }
 }
 
 function kaannaTeksti() {
   var kieli = document.getElementById('kieli').value;
   if (kieli == 'englanti') {
-    alert("Hello World!");
+    document.getElementById('t5').innerHTML = "Hello World!";
   }
   else if (kieli == 'ruotsi') {
-    alert("Hallå Världen!");
+    document.getElementById('t5').innerHTML = "Hallå Världen!";
   }
   else {
-    alert("Hola Mundo!");
+    document.getElementById('t5').innerHTML = "Hola Mundo!";
   }
 }
