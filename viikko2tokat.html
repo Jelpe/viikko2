@@ -1,0 +1,58 @@
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Viikon 2 Toiset tehtävät!</title>
+    <link rel="stylesheet" href="tyyli2.css">
+    <script type="text/javascript" src="viikko2tokat.js">
+
+    </script>
+  </head>
+  <body>
+    <section id = "yksi">
+    <h1>Tehtävä 1</h1>
+    <p>Lue käyttäjän luku ja katso onko se positiivinen vai negatiivinen</p>
+    <label for="luku">Anna luku: </label><input type="text" id="luku" value="">
+    <button type="button" name="button" onclick="Tarkista()">Tarkista</button>
+    <p id="t1"></p>
+    </section>
+
+    <section id = "kaksi">
+    <h1>Tehtävä 2</h1>
+    <p>Lue käyttäjän antama viikonpäivän numero ja tulosta se sanana</p>
+    <label for="viikonpäivä">Anna viikonpäivän numero: </label><input type="text" id="viikpv" value="">
+    <button type="button" name="button" onclick="MuutaSanaksi()">Muuta sanaksi</button>
+    <p id="t2"></p>
+    </section>
+
+    <section id = "kolme">
+
+    <h1>Tehtävä 3</h1>
+    <p>Tarkistetaan käyttäjän syöte, onko se karkausvuosi</p>
+    <label for="vuosi">Anna vuosi: </label><input type="text" id="vuosi" value="">
+    <button type="button" name="button" onclick="TarkistaVuosi()">Onko karkausvuosi?</button>
+    <p id="t3"></p>
+    </section>
+
+    <section id = "nelja">
+
+    <h1>Tehtävä 4</h1>
+    <p>Luetaan 5 lukua, lasketaan ne yhteen ja tulostetaan summa ja keskiarvo</p>
+    <label for="luku1">Anna luku 1: </label><input type="text" id="luku1" value=""><br/>
+    <label for="luku2">Anna luku 2: </label><input type="text" id="luku2" value=""><br/>
+    <label for="luku3">Anna luku 3: </label><input type="text" id="luku3" value=""><br/>
+    <label for="luku4">Anna luku 4: </label><input type="text" id="luku4" value=""><br/>
+    <label for="luku5">Anna luku 5: </label><input type="text" id="luku5" value=""><br/>
+    <button type="button" name="button" onclick="laskeKeskiarvo()">Laske summa ja keskiarvo</button>
+    <p id="t4"></p>
+    </section>
+
+    <section id = "viisi">
+
+    <h1>Tehtävä 5</h1>
+    <p>Pyydä käyttäjältä lukua ja tee siitä kertotaulu</p>
+    <label for="luku">Anna kerrottava luku: </label><input type="text" id="kerrottava" value="">
+    <button type="button" name="button" onclick="TeeKertotaulu()">Tee kertotaulu</button>
+    <p id="t5"></p>
+
+    </section>
+</html>
